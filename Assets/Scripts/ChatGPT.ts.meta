@@ -1,18 +1,18 @@
-- !<AssetImportMetadata/27f97d68-ef6d-49ab-a977-7b68decb5197>
+- !<AssetImportMetadata/aa4cc7d4-c94b-4f65-91a3-77b0095a773a>
   ImportedAssetIds:
-    TypeScriptAsset: !<reference> fd9d981f-ab69-48a1-bab2-1b5a8b1ebb6d
+    TypeScriptAsset: !<reference> f6d718a4-db6b-40c8-9c93-e7835369de6b
   ImporterName: TypeScriptAssetImporter
-  PrimaryAsset: !<reference> fd9d981f-ab69-48a1-bab2-1b5a8b1ebb6d
+  PrimaryAsset: !<reference> f6d718a4-db6b-40c8-9c93-e7835369de6b
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
-    TypeScriptAsset: !<own> 7819bb92-82fc-4546-966b-0f08b6106846
+    TypeScriptAsset: !<own> bbd8d265-e4cc-46ce-86f5-87838437518a
   DependentFiles:
     []
-  ImporterSettings: !<AssetImporterSettings/53da2e01-bf9c-4873-9694-15038ffe9bc0>
+  ImporterSettings: !<AssetImporterSettings/f7eb1696-0af6-4883-9ffb-d2e508d56cd9>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<TypeScriptAssetData/7819bb92-82fc-4546-966b-0f08b6106846>
+- !<TypeScriptAssetData/bbd8d265-e4cc-46ce-86f5-87838437518a>
   SvgIcon: ""
   Description: ""
   InternalVersion: 0
@@ -24,16 +24,13 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    hello: false
-    textComponent: false
+    recipeText: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - textComponent: !<reference.Text> 00000000-0000-0000-0000-000000000000
-      hello: ""
+    - recipeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
-    - // @input Component.Text textComponent
-    - // @input string hello
+    - // @input Component.Text recipeText

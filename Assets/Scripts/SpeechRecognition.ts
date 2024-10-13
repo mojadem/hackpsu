@@ -1,4 +1,4 @@
-import { Ingredients } from "Ingredients";
+import { Ingredients } from "Scripts/Ingredients";
 
 @component
 export class SpeechRecognition extends BaseScriptComponent {
@@ -11,12 +11,11 @@ export class SpeechRecognition extends BaseScriptComponent {
   options: VoiceML.ListeningOptions;
 
   onAwake() {
-    print(this);
     this.options = VoiceML.ListeningOptions.create();
     this.options.speechRecognizer = VoiceMLModule.SpeechRecognizer.Default;
     this.options.shouldReturnAsrTranscription = true;
+
     this.vmlModule.onListeningUpdate.add((eventArgs) => {
-      print(this);
       if (eventArgs.transcription.trim() == "") {
         return;
       }
@@ -29,9 +28,6 @@ export class SpeechRecognition extends BaseScriptComponent {
 
       this.ingredients.addIngredient(eventArgs.transcription);
     });
-
-    this.ingredients.helloWorld();
-    this.ingredients.addIngredient("testing");
   }
 
   startTranscription() {
@@ -45,8 +41,6 @@ export class SpeechRecognition extends BaseScriptComponent {
   }
 
   onButtonToggle(on: boolean) {
-    print(on);
-
     if (on) {
       this.startTranscription();
     } else {
