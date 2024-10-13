@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/64300a7d-4b6a-4afd-8d1d-3f3113dd8173>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1dc2c4d6-51fc-4a9e-928f-24fb4bdf9ea7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1dc2c4d6-51fc-4a9e-928f-24fb4bdf9ea7
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> f1be2dbe-d8d9-495e-a06c-a94b8f9c0887
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/f7f9cefc-174e-468c-a903-8af1f6338be8>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f1be2dbe-d8d9-495e-a06c-a94b8f9c0887>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    ingredients: false
+    vmlModule: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - vmlModule: !<reference.VoiceMLModule> 00000000-0000-0000-0000-000000000000
+      ingredients: !<MappingBased.Ingredients> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.VoiceMLModule vmlModule
+    - // @input Ingredients ingredients
