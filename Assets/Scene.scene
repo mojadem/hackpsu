@@ -1705,6 +1705,7 @@
       recipeSelectMenu: !<reference.SceneObject> 77455338-cb34-4b82-9391-09989a0df8c4
       recipeInfo: !<reference.SceneObject> d6ea13e1-b9f7-4605-b156-db4a4945985b
       recipeGpt: !<MappingBased.ChatGptManager> 9d1a547d-d461-4d78-b9ff-4c05cc48cd79
+      recipeText: !<reference.Text> 35f061c4-affe-4dd3-a02e-c768fa932246
   ScriptTypes:
     "":
       {}
@@ -2701,15 +2702,15 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -30.000000, y: 0.000000, z: 0.000000}
+    position: {x: -22.816074, y: 31.660189, z: 0.000000}
     rotation: {x: 0.000000, y: 15.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 21fdea1e-43ec-48a1-b736-a648e31252d2
+    - !<own> 8fe81e33-873d-47af-bc44-4d2158350920
     - !<own> ebb68ca2-10ac-444a-83d9-19163ff44a0b
     - !<own> 2848cf83-47ca-41ed-9eec-e4c98a900f3d
-    - !<own> 8fe81e33-873d-47af-bc44-4d2158350920
   Components:
     - !<own> 9d7a88e5-a7b9-4f29-89f6-152042e6e84b
 - !<SceneObject/59dbbd04-af85-4644-94c3-4b3d7fee40ec>
@@ -3125,9 +3126,11 @@
       lunchInteractable: !<MappingBased.Interactable> ca661e11-a05e-48ae-9646-ee3258777a76
       lunchRecipe: !<reference.Text> 27674b6e-6d67-4bb8-9a49-778cf4bb72bf
       lunchGptCaller: !<MappingBased.ChatGptTester> a03ca58d-0382-4843-800b-74ad464022aa
+      lunchLocationSnap: !<MappingBased.LocationSnapComponent> 83560a9a-dbcd-436b-a53a-b23e832b3017
       dinnerInteractable: !<MappingBased.Interactable> d2c1ab16-d827-46a6-8922-679492d6968a
       dinnerRecipe: !<reference.Text> d1c50a6c-6c3a-4bc3-8f3a-4d14dc65092b
       dinnerGptCaller: !<MappingBased.ChatGptTester> a85fccbb-32ea-4102-9a2d-30472d77ce29
+      dinnerLocationSnap: !<MappingBased.LocationSnapComponent> dafc1794-e156-44bc-acb2-65c02540f7b8
       ingredients: !<MappingBased.Ingredients> b59a8285-eea8-401d-a7c3-a1355355d96d
   ScriptTypes:
     "":
@@ -3974,7 +3977,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    position: {x: 0.000000, y: -3.000000, z: 0.000000}
     rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -4332,9 +4335,9 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 5.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    position: {x: 0.000000, y: -5.000000, z: 3.000000}
+    rotation: {x: 0.000000, y: 0.000005, z: 0.000000}
+    scale: {x: 1.250000, y: 1.250000, z: 1.250000}
     hasSegmentScaleCompensation: false
   Children:
     - !<own> 481985fe-50f0-4816-b981-2afad5a4a361
@@ -4423,9 +4426,9 @@
   ScriptInputs:
     "":
       editEventCallbacks: true
-      customFunctionForOnButtonPinched: !<reference.ScriptComponent> b59a8285-eea8-401d-a7c3-a1355355d96d
+      customFunctionForOnButtonPinched: !<reference.ScriptComponent> 6902f3a1-f5e3-4d08-bee9-7f18880422fa
       onButtonPinchedFunctionNames: !<string[]>
-        - clear
+        - resetIngredients
   ScriptTypes:
     "":
       {}
@@ -4436,7 +4439,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: -10.000000, z: 0.000000}
+    position: {x: 0.000000, y: -13.000000, z: 0.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.250000, y: 1.250000, z: 1.250000}
     hasSegmentScaleCompensation: false
@@ -6492,7 +6495,7 @@
   Enabled: true
   Layers: 1
   LocalTransform:
-    position: {x: -30.000000, y: 0.000000, z: 0.000000}
+    position: {x: -30.000000, y: 10.907577, z: 0.000000}
     rotation: {x: 0.000000, y: 15.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
@@ -7552,7 +7555,7 @@
       editEventCallbacks: true
       customFunctionForOnButtonPinched: !<reference.ScriptComponent> 6902f3a1-f5e3-4d08-bee9-7f18880422fa
       onButtonPinchedFunctionNames: !<string[]>
-        - regenerate
+        - submitIngredients
   ScriptTypes:
     "":
       {}

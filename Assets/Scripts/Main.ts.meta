@@ -28,6 +28,7 @@
     recipeGpt: false
     recipeInfo: false
     recipeSelectMenu: false
+    recipeText: false
     startButton: false
   ScriptTypesHidden:
     {}
@@ -37,6 +38,7 @@
       recipeGpt: !<MappingBased.ChatGptManager> 00000000-0000-0000-0000-000000000000
       recipeSelectMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       recipeInfo: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      recipeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -46,3 +48,4 @@
     - // @input SceneObject recipeSelectMenu
     - // @input SceneObject recipeInfo
     - // @input ChatGptManager recipeGpt
+    - // @input Component.Text recipeText

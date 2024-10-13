@@ -18,6 +18,9 @@ export class Main extends BaseScriptComponent {
   @input
   recipeGpt: ChatGptManager;
 
+  @input
+  recipeText: Text;
+
   onAwake() {
     this.createEvent("OnStartEvent").bind(() => {
       this.recipeSelectMenu.enabled = false;
@@ -54,6 +57,7 @@ export class Main extends BaseScriptComponent {
   }
 
   back() {
+    this.recipeText.text = "Loading recipe...";
     this.recipeSelectMenu.enabled = true;
     this.recipeInfo.enabled = false;
   }

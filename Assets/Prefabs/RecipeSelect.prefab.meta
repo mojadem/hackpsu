@@ -895,8 +895,10 @@
     breakfastLocationSnap: true
     lunchRecipe: true
     lunchGptCaller: true
+    lunchLocationSnap: true
     dinnerRecipe: true
     dinnerGptCaller: true
+    dinnerLocationSnap: true
     ingredients: true
   ScriptTypesDefault:
     {}
@@ -910,9 +912,11 @@
       lunchInteractable: !<MappingBased.Interactable> 0565563c-b0dd-43da-a9b3-1c044d53fba7
       lunchRecipe: !<reference.Text> 00000000-0000-0000-0000-000000000000
       lunchGptCaller: !<MappingBased.ChatGptTester> 00000000-0000-0000-0000-000000000000
+      lunchLocationSnap: !<MappingBased.LocationSnapComponent> 00000000-0000-0000-0000-000000000000
       dinnerInteractable: !<MappingBased.Interactable> 20ff2725-240b-4a91-a803-6feddf1af900
       dinnerRecipe: !<reference.Text> 00000000-0000-0000-0000-000000000000
       dinnerGptCaller: !<MappingBased.ChatGptTester> 00000000-0000-0000-0000-000000000000
+      dinnerLocationSnap: !<MappingBased.LocationSnapComponent> 00000000-0000-0000-0000-000000000000
       ingredients: !<MappingBased.Ingredients> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     "":

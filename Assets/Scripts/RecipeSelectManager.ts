@@ -48,6 +48,8 @@ export class NewScript extends BaseScriptComponent {
   @input
   ingredients: Ingredients;
 
+  ingredientPrompt: string;
+
   onAwake() {
     this.createEvent("OnStartEvent").bind(() => {
       this.breakfastInteractable.onTriggerEnd.add(() => {
@@ -69,15 +71,30 @@ export class NewScript extends BaseScriptComponent {
         this.dinnerLocationSnap.resetPosition();
       });
     });
+
+    this.ingredientPrompt = "";
   }
 
   regenerate() {
-    this.breakfastGptCaller.callGpt();
-    this.lunchGptCaller.callGpt();
-    this.dinnerGptCaller.callGpt();
+    this.breakfastGptCaller.callGpt(this.ingredientPrompt);
+    this.lunchGptCaller.callGpt(this.ingredientPrompt);
+    this.dinnerGptCaller.callGpt(this.ingredientPrompt);
   }
 
   submitIngredients() {
-    // print()
+    this.ingredientPrompt = `
+    The recipe should be one that is possible to make with the following ingredients:
+
+    ${this.ingredients.getFormattedText()}
+    `;
+
+    print(this.ingredientPrompt);
+
+    this.regenerate();
+  }
+
+  resetIngredients() {
+    this.ingredients.clear();
+    this.ingredientPrompt = "";
   }
 }
