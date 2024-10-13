@@ -20,15 +20,16 @@ metaInfo:
     []
   tags:
     []
-  lensName: Specs Starter
+  lensName: Cook It Up!
   lensDescriptors:
     - EXPERIMENTAL_API
+    - GEN_AI_ICON
   lensApplicability:
     - Front
     - Back
   lensClientCompatibilities:
     - Spectacles
-  iconHash: ""
+  iconHash: c31ce5df3dd45e8219160f29b39cb493
   videoPreviewHash: ""
   fromTemplateName: Spectacles
   fromTemplateUrl: Lens Studio 5.1.1.24092500
