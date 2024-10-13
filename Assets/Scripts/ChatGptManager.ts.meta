@@ -24,13 +24,13 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    recipeText: false
+    chatOutput: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - recipeText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+    - chatOutput: !<reference.Text> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
-    - // @input Component.Text recipeText
+    - // @input Component.Text chatOutput

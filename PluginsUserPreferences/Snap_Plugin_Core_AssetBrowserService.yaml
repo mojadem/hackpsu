@@ -1,5 +1,7 @@
 ExternalSources:
   type: "std::map<Es::Uuid, Es::Path>"
   value:
-    []
+    - 6b965857-628b-447f-a088-c8b532bbada1: /Users/mojadem/Downloads/kenney_food-kit/Models/FBX format/bread.fbx
+    - 7dc391c6-08ce-4246-9019-050b2f6cd2fc: /Users/mojadem/Downloads/kenney_food-kit/Models/FBX format/egg-cooked.fbx
+    - c7ac1406-d7f0-4b79-af20-56b04a3e0b36: /Users/mojadem/Downloads/kenney_food-kit/Models/FBX format/plate-dinner.fbx
   options: 4

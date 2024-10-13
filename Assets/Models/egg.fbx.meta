@@ -1,0 +1,113 @@
+- !<AssetImportMetadata/7dc391c6-08ce-4246-9019-050b2f6cd2fc>
+  ImportedAssetIds:
+    .hidden/colormap: !<reference> 2057e5d7-fc64-4836-b431-ad61c8d2211f
+    .hidden/white: !<reference> f0bb8b8a-f228-4a5c-86d8-b7b531190955
+    08b2f9615e1e5f36: !<reference> def9999f-c8d0-497a-bf1e-f4e2294bdc3e
+    66780cf3a4dcb2b8: !<reference> 1a5b299d-4d5f-4f3b-83bd-28499910bba7
+    Materials/colormap: !<reference> 85d8040a-1d16-4284-92e2-ce53d3dcd1c2
+    Materials/colormap|colormap|GraphPassInfo: !<reference> 283a04b5-8f11-4b14-a168-f573a4c17316
+    Meshes/egg-cooked: !<reference> a12a8202-937d-4847-80eb-ed7c4bd058c1
+    Scene: !<reference> 2adafc28-69ca-44b2-a32e-5ec5c908a025
+    Textures/colormap: !<reference> c6e3ca3c-2ba4-4537-a974-1b1146cfb68f
+    c040d39f18170dad: !<reference> d34bead2-8f59-4907-a9eb-cc4856751d74
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 2adafc28-69ca-44b2-a32e-5ec5c908a025
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> 2232b573-0330-44c4-9a6e-93ed3fe9a6e3
+  DependentFiles:
+    - Textures/colormap.png
+  ImporterSettings: !<FbxImporterSettings/ec388b9b-a814-4069-8511-5e3cc75fb4f8>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitize
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings/3365274c-bcdc-4e4b-992b-89e02ae4bb97>
+    Presets:
+      None Compression: !<SingleCompressionSettings/68faae17-2180-47fe-b365-97491060705f>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings/092638e1-7bba-4d8e-bf3b-ddddcfd8567b>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/3eba14b6-4923-4672-9c2e-25696d097b48>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<SceneObject/031cc2fd-d949-4d3b-8048-2283b6ceac78>
+  PrefabRemaps:
+    []
+  Name: egg-cooked
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b885842e-b486-4448-ae27-d4e3e86b737e
+- !<ObjectPrefabAssetData/2232b573-0330-44c4-9a6e-93ed3fe9a6e3>
+  SourceRemaps:
+    - 1a5b299d-4d5f-4f3b-83bd-28499910bba7: dfebd9fe-8e84-447d-b8f9-efc004464338
+    - d34bead2-8f59-4907-a9eb-cc4856751d74: 031cc2fd-d949-4d3b-8048-2283b6ceac78
+    - def9999f-c8d0-497a-bf1e-f4e2294bdc3e: b885842e-b486-4448-ae27-d4e3e86b737e
+  SourceState: !<own> 7327b5e8-04c9-4fde-90c7-bf7ad188f3b7
+- !<ObjectPrefab/7327b5e8-04c9-4fde-90c7-bf7ad188f3b7>
+  PackagePath: ""
+  objects:
+    - !<own> dfebd9fe-8e84-447d-b8f9-efc004464338
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/b885842e-b486-4448-ae27-d4e3e86b737e>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 85d8040a-1d16-4284-92e2-ce53d3dcd1c2
+  Mesh: !<reference> a12a8202-937d-4847-80eb-ed7c4bd058c1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/dfebd9fe-8e84-447d-b8f9-efc004464338>
+  PrefabRemaps:
+    []
+  Name: egg-cooked
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> 031cc2fd-d949-4d3b-8048-2283b6ceac78
+  Components:
+    []

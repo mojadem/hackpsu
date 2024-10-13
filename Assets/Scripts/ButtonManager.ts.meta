@@ -1,0 +1,36 @@
+- !<AssetImportMetadata/d15bbfc5-e2ab-468f-911a-9682edda6147>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 96a8bc16-8cb9-4fa8-95bc-7273b1e3bdc5
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 96a8bc16-8cb9-4fa8-95bc-7273b1e3bdc5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> c4c7e6b2-d44b-4c3e-92f6-8623cebc9f0d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/5e451d20-3d66-44b2-9fa4-2e12573744b8>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/c4c7e6b2-d44b-4c3e-92f6-8623cebc9f0d>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    interactable: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - interactable: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Interactable interactable

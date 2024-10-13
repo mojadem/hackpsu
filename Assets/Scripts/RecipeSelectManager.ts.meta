@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/6e16c213-293d-47f6-8fe6-07f60d347d16>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> cec44ee2-abc7-4233-a10f-09098ededdd2
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> cec44ee2-abc7-4233-a10f-09098ededdd2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> ba9d789c-c798-4200-8f7e-949399f92a87
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/8d6927fc-36f5-4198-a157-66a2c8d00ed7>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ba9d789c-c798-4200-8f7e-949399f92a87>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    breakfastInteractable: false
+    dinnerInteractable: false
+    lunchInteractable: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - breakfastInteractable: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
+      lunchInteractable: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
+      dinnerInteractable: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Interactable breakfastInteractable
+    - // @input Interactable lunchInteractable
+    - // @input Interactable dinnerInteractable

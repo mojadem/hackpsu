@@ -1,0 +1,113 @@
+- !<AssetImportMetadata/c7ac1406-d7f0-4b79-af20-56b04a3e0b36>
+  ImportedAssetIds:
+    .hidden/colormap: !<reference> e7aa95df-4eff-4bea-8084-c0edb9fdaa3a
+    .hidden/white: !<reference> 5662ff86-f32a-4402-a3d5-3277f70f5df9
+    07c89930ad0382bf: !<reference> 66217232-999c-403c-82a3-bd78a8a0314a
+    66780cf3a4dcb2b8: !<reference> b5488f38-60ad-419d-b29b-2d6eb6c4e646
+    Materials/colormap: !<reference> 5e288683-54ee-4559-a0bf-1bab333291fc
+    Materials/colormap|colormap|GraphPassInfo: !<reference> bb9f26ac-4c9d-49eb-80f2-f329391e8a1b
+    Meshes/plate-dinner: !<reference> 94612939-94d2-4350-b52f-a3814ce7eec8
+    Scene: !<reference> 80226bf4-37aa-407e-8d1b-b814787d9fe2
+    Textures/colormap: !<reference> 96c6ae69-e5ee-4c87-91ee-67738b586614
+    dab08bd0742ce3fd: !<reference> 4cb7a768-7f7f-454b-9b01-12723e5d5f64
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 80226bf4-37aa-407e-8d1b-b814787d9fe2
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> d2f5af75-310b-4384-8cff-6c287ec5ff15
+  DependentFiles:
+    - Textures/colormap.png
+  ImporterSettings: !<FbxImporterSettings/a37f9a38-9d7c-4441-b022-3a88ddfa4371>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitize
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings/7a0917a8-6f81-4063-bc29-0d288c6bdd8f>
+    Presets:
+      None Compression: !<SingleCompressionSettings/6141736d-99b0-4a16-bfba-2e61b08f45c4>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings/9f710949-4140-4ceb-b14d-851941c9fed2>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/acc27c0e-6662-426d-9ceb-024aa583c6d1>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<RenderMeshVisual/44abaa3b-40e9-4559-acb2-800b0e00b77a>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5e288683-54ee-4559-a0bf-1bab333291fc
+  Mesh: !<reference> 94612939-94d2-4350-b52f-a3814ce7eec8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/74acd456-8a5d-4d83-95c0-dc1ac585d721>
+  PrefabRemaps:
+    []
+  Name: plate-dinner
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> e0f55e36-6e49-4031-8360-e3a7f2a8f86c
+  Components:
+    []
+- !<ObjectPrefab/bc00ac2f-11ba-4355-9d45-ba0a8a19a687>
+  PackagePath: ""
+  objects:
+    - !<own> 74acd456-8a5d-4d83-95c0-dc1ac585d721
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/d2f5af75-310b-4384-8cff-6c287ec5ff15>
+  SourceRemaps:
+    - 4cb7a768-7f7f-454b-9b01-12723e5d5f64: 44abaa3b-40e9-4559-acb2-800b0e00b77a
+    - 66217232-999c-403c-82a3-bd78a8a0314a: e0f55e36-6e49-4031-8360-e3a7f2a8f86c
+    - b5488f38-60ad-419d-b29b-2d6eb6c4e646: 74acd456-8a5d-4d83-95c0-dc1ac585d721
+  SourceState: !<own> bc00ac2f-11ba-4355-9d45-ba0a8a19a687
+- !<SceneObject/e0f55e36-6e49-4031-8360-e3a7f2a8f86c>
+  PrefabRemaps:
+    []
+  Name: plate-dinner
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 44abaa3b-40e9-4559-acb2-800b0e00b77a

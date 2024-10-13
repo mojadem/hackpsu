@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/25a4d91a-ac69-4a56-8f63-a80c95a9569e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> bc237771-ef6c-43f2-927b-0dad34e0cbf2
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> bc237771-ef6c-43f2-927b-0dad34e0cbf2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> de32f64b-be3f-41b3-8e8b-b1869c2e1a58
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/70583ee6-5c05-4f0e-bf24-b32046db797d>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/de32f64b-be3f-41b3-8e8b-b1869c2e1a58>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    ghostChef: false
+    startButton: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - startButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
+      ghostChef: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input PinchButton startButton
+    - // @input SceneObject ghostChef

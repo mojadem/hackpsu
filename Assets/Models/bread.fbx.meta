@@ -1,0 +1,113 @@
+- !<AssetImportMetadata/6b965857-628b-447f-a088-c8b532bbada1>
+  ImportedAssetIds:
+    .hidden/colormap: !<reference> e4d84e14-e32d-4ec4-9b9f-4ddebf092051
+    .hidden/white: !<reference> 6b8590cb-be02-45e0-bf09-516e90fd9ce8
+    0d10c8bdceb6b17a: !<reference> 31bd11f5-dacb-4e91-9b57-4c29fc2b9ee5
+    5817a0d0e0ce27c5: !<reference> 3fe0bb27-21b8-4a67-8fbd-ca941baa5f4e
+    66780cf3a4dcb2b8: !<reference> 735fc5d0-cc4b-49de-9095-f91093d639a9
+    Materials/colormap: !<reference> 28267ba1-f6dd-4574-a80f-88d9872d5e2b
+    Materials/colormap|colormap|GraphPassInfo: !<reference> 6dca6b26-4439-4db8-99c8-d2b8226db946
+    Meshes/bread: !<reference> 88cd7e81-9ca6-4e49-9308-8a17f9c94358
+    Scene: !<reference> 98aea08f-6433-4eb3-aa75-c00137fedb45
+    Textures/colormap: !<reference> 0fda6d88-8547-40f9-9dd7-a69907ec9f21
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 98aea08f-6433-4eb3-aa75-c00137fedb45
+  PackageType: LegacyPackage
+  PackagePolicy: CanBeUnpacked
+  AssetDataMap:
+    Scene: !<own> 1fdf6e24-7bcb-425a-8ea7-8631b0cb0e6f
+  DependentFiles:
+    - Textures/colormap.png
+  ImporterSettings: !<FbxImporterSettings/eae1efb8-ceec-4a09-b3d7-30c7d91ff7ba>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitize
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: true
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings/3e9dac12-4998-4c4c-a9e2-de265148bed9>
+    Presets:
+      None Compression: !<SingleCompressionSettings/0a1b7f43-ad4d-4205-a34a-8e80df4fde9f>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings/4c257a4b-2478-4e3e-9d45-a520ba26937f>
+        CompressorName: Performance
+        CompressionSettings: !<TextureCompressionSettings/c777a598-7aef-4eca-8064-a32212c54468>
+          Level: Medium
+    ExtensionMappings:
+      mesh: None Compression
+      png: Performance Compression
+      jpg: Performance Compression
+    Overrides:
+      {}
+- !<ObjectPrefabAssetData/1fdf6e24-7bcb-425a-8ea7-8631b0cb0e6f>
+  SourceRemaps:
+    - 31bd11f5-dacb-4e91-9b57-4c29fc2b9ee5: c7b5b968-6cf9-421a-8d84-576f3ceed368
+    - 3fe0bb27-21b8-4a67-8fbd-ca941baa5f4e: 2b4108b0-9278-41cd-9881-7479d6e17199
+    - 735fc5d0-cc4b-49de-9095-f91093d639a9: 498d93de-c70c-47b0-b971-c8a20b2b494e
+  SourceState: !<own> 89c47231-5e4e-4a69-b1b2-35b6d4ee2faa
+- !<RenderMeshVisual/2b4108b0-9278-41cd-9881-7479d6e17199>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 28267ba1-f6dd-4574-a80f-88d9872d5e2b
+  Mesh: !<reference> 88cd7e81-9ca6-4e49-9308-8a17f9c94358
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/498d93de-c70c-47b0-b971-c8a20b2b494e>
+  PrefabRemaps:
+    []
+  Name: bread
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c7b5b968-6cf9-421a-8d84-576f3ceed368
+  Components:
+    []
+- !<ObjectPrefab/89c47231-5e4e-4a69-b1b2-35b6d4ee2faa>
+  PackagePath: ""
+  objects:
+    - !<own> 498d93de-c70c-47b0-b971-c8a20b2b494e
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/c7b5b968-6cf9-421a-8d84-576f3ceed368>
+  PrefabRemaps:
+    []
+  Name: bread
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2b4108b0-9278-41cd-9881-7479d6e17199

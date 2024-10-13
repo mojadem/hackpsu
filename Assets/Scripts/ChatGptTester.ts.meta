@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/7a77d934-894f-4acf-b732-0eaee6ad24c0>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2343db20-aabf-443c-a52d-e337db9fe023
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2343db20-aabf-443c-a52d-e337db9fe023
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 09bbe35e-e3ff-423b-aa4d-b122a983923a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/ea9cc5ca-6dd5-494d-9e6d-031d0f58cad3>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/09bbe35e-e3ff-423b-aa4d-b122a983923a>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    chatGptManager: false
+    isActive: false
+    prompt: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - prompt: ""
+      isActive: false
+      chatGptManager: !<MappingBased.ChatGptManager> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input string prompt
+    - // @input bool isActive
+    - // @input ChatGptManager chatGptManager

@@ -1,19 +1,62 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 338
+    size: 408
     values:
       - ChatGPT Helper.lsc
       - Device Camera Texture.deviceCameraTexture
       - Echopark.hdr
       - Echopark.hdr/Diffuse
       - Echopark.hdr/Specular
+      - GhostChef.lsc
+      - Models/bread.fbx
+      - Models/bread.fbx/.hidden
+      - Models/bread.fbx/.hidden/colormap
+      - Models/bread.fbx/.hidden/white
+      - Models/bread.fbx/Materials
+      - Models/bread.fbx/Materials/colormap
+      - Models/bread.fbx/Meshes
+      - Models/bread.fbx/Meshes/bread
+      - Models/bread.fbx/Textures
+      - Models/bread.fbx/Textures/colormap
+      - Models/bread.fbx/bread
+      - Models/egg.fbx
+      - Models/egg.fbx/.hidden
+      - Models/egg.fbx/.hidden/colormap
+      - Models/egg.fbx/.hidden/white
+      - Models/egg.fbx/Materials
+      - Models/egg.fbx/Materials/colormap
+      - Models/egg.fbx/Meshes
+      - Models/egg.fbx/Meshes/egg-cooked
+      - Models/egg.fbx/Textures
+      - Models/egg.fbx/Textures/colormap
+      - Models/egg.fbx/egg-cooked
+      - Models/plate-dinner.fbx
+      - Models/plate-dinner.fbx/.hidden
+      - Models/plate-dinner.fbx/.hidden/colormap
+      - Models/plate-dinner.fbx/.hidden/white
+      - Models/plate-dinner.fbx/Materials
+      - Models/plate-dinner.fbx/Materials/colormap
+      - Models/plate-dinner.fbx/Meshes
+      - Models/plate-dinner.fbx/Meshes/plate-dinner
+      - Models/plate-dinner.fbx/Textures
+      - Models/plate-dinner.fbx/Textures/colormap
+      - Models/plate-dinner.fbx/plate-dinner
+      - Prefabs
+      - Prefabs/RecipeSelect.prefab
+      - Prefabs/Start.prefab
       - Render Target.renderTarget
       - Scene.scene
-      - Scripts/ChatGPT.ts
+      - Scripts
+      - Scripts/ButtonManager.ts
+      - Scripts/ChatGptManager.ts
+      - Scripts/ChatGptTester.ts
       - Scripts/Ingredients.ts
-      - Scripts/Manager.ts
+      - Scripts/InteractableManager.ts
+      - Scripts/Main.ts
+      - Scripts/RecipeSelectManager.ts
       - Scripts/SpeechRecognition.ts
+      - Scripts/TweenManager.ts
       - SpectaclesInteractionKit
       - SpectaclesInteractionKit/Assets
       - SpectaclesInteractionKit/Assets/Audio
@@ -339,6 +382,33 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Utils/views/MeshView.ts
       - SpectaclesInteractionKit/Utils/views/View.ts
       - SpectaclesInteractionKit/package.native
-      - Untitled TypeScript.ts
+      - TweenManager
+      - TweenManager/.hidden
+      - TweenManager/.hidden/Image Unlit.ss_graph
+      - TweenManager/.hidden/TweenBoxDiffuse.ss_graph
+      - TweenManager/Tween
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/ExampleTweenValueScript.js"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/Materials"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/Materials/Image Unlit.mat"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/Materials/TweenBoxDiffuse.mat"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/Materials/TweenBoxDiffuse_Alt.mat"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/Materials/TweenSphereDiffuse.mat"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/Meshes"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/Meshes/TweenBox.mesh"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/Meshes/TweenSphere.mesh"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/Textures"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/Textures/TweenImageTextures"
+      - "TweenManager/Tween/ExampleResources [REMOVE_ME]/Textures/TweenImageTextures/Image.png"
+      - TweenManager/Tween/Tween.js
+      - TweenManager/Tween/TweenManager.js
+      - TweenManager/Tween/TweenTypes
+      - TweenManager/Tween/TweenTypes/TweenAlpha.js
+      - TweenManager/Tween/TweenTypes/TweenChain.js
+      - TweenManager/Tween/TweenTypes/TweenColor.js
+      - TweenManager/Tween/TweenTypes/TweenScreenTransform.js
+      - TweenManager/Tween/TweenTypes/TweenTransform.js
+      - TweenManager/Tween/TweenTypes/TweenValue.js
+      - TweenManager/TweenManager.prefab
       - VoiceML Module.voiceMLModule
   options: 4
