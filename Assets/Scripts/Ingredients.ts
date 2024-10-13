@@ -7,7 +7,7 @@ export class Ingredients extends BaseScriptComponent {
 
   onAwake() {
     this.textComponent.text = "";
-    this.ingredients = ["chicken", "rice", "broccoli"];
+    this.ingredients = ["Egg", "Tomato", "Parsley"];
     this.updateText();
   }
 
