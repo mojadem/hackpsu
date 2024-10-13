@@ -32,6 +32,7 @@ export class SpeechRecognition extends BaseScriptComponent {
 
   startTranscription() {
     print("start transcription");
+    print(JSON.stringify(this.vmlModule));
     this.vmlModule.startListening(this.options);
   }
 

@@ -17,12 +17,11 @@ export class ChatGptCaller extends BaseScriptComponent {
         return;
       }
 
-      this.callGpt()
+      this.callGpt();
     });
   }
 
   callGpt() {
     this.chatGptManager.chat(this.prompt);
-
   }
 }

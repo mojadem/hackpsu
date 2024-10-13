@@ -1,8 +1,9 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 407
+    size: 405
     values:
+      - 578080__disquantic__chill_out_bell_loop_114bpm.wav
       - ChatGPT Helper.lsc
       - Device Camera Texture.deviceCameraTexture
       - Echopark.hdr
@@ -42,10 +43,12 @@ CollapsedEntities:
       - Models/plate-dinner.fbx/Textures
       - Models/plate-dinner.fbx/Textures/colormap
       - Models/plate-dinner.fbx/plate-dinner
+      - Prefabs
       - Prefabs/RecipeSelect.prefab
       - Prefabs/Start.prefab
       - Render Target.renderTarget
       - Scene.scene
+      - Scripts
       - Scripts/ButtonManager.ts
       - Scripts/ChatGptManager.ts
       - Scripts/ChatGptTester.ts
@@ -56,7 +59,6 @@ CollapsedEntities:
       - Scripts/RotateComponent.ts
       - Scripts/SpeechRecognition.ts
       - Scripts/TweenManager.ts
-      - SpectaclesInteractionKit
       - SpectaclesInteractionKit/Assets
       - SpectaclesInteractionKit/Assets/Audio
       - SpectaclesInteractionKit/Assets/Audio/HoverAudioTrack.wav
@@ -139,7 +141,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Assets/Textures/SIKContainerExampleImage.jpg
       - SpectaclesInteractionKit/Assets/Textures/SIKLogo.png
       - SpectaclesInteractionKit/Assets/Textures/ScrollBarRectangle.png
-      - SpectaclesInteractionKit/Components
       - SpectaclesInteractionKit/Components/Helpers
       - SpectaclesInteractionKit/Components/Helpers/CapsuleMeshCustomizer.ts
       - SpectaclesInteractionKit/Components/Helpers/InteractableAudioFeedback.ts
@@ -184,7 +185,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineMaterial.mat
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineRenderer.ts
       - SpectaclesInteractionKit/Components/Interaction/InteractorLineVisual/InteractorLineVisual.ts
-      - SpectaclesInteractionKit/Components/UI
       - SpectaclesInteractionKit/Components/UI/ContainerFrame
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/ContainerFrame.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/Materials
@@ -229,7 +229,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SimpleLODRenderMeshVisual/SimpleLODRenderMeshVisual.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SmoothFollow.ts
       - SpectaclesInteractionKit/Components/UI/ContainerFrame/modules/SnappableBehavior.ts
-      - SpectaclesInteractionKit/Components/UI/PinchButton
       - SpectaclesInteractionKit/Components/UI/PinchButton/PinchButton.ts
       - SpectaclesInteractionKit/Components/UI/ScrollBar
       - SpectaclesInteractionKit/Components/UI/ScrollBar/ScrollBar.ts
@@ -246,7 +245,6 @@ CollapsedEntities:
       - SpectaclesInteractionKit/Components/UI/ScrollView/boundariesProvider/VisualBoundariesProvider.ts
       - SpectaclesInteractionKit/Components/UI/Slider
       - SpectaclesInteractionKit/Components/UI/Slider/Slider.ts
-      - SpectaclesInteractionKit/Components/UI/ToggleButton
       - SpectaclesInteractionKit/Components/UI/ToggleButton/ToggleButton.ts
       - SpectaclesInteractionKit/Core
       - SpectaclesInteractionKit/Core/ConfigurationValidator

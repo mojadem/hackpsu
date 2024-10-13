@@ -20,9 +20,9 @@ export class Main extends BaseScriptComponent {
 
   onAwake() {
     this.createEvent("OnStartEvent").bind(() => {
-        this.recipeSelectMenu.enabled = false
-        this.recipeInfo.enabled = false
-    })
+      this.recipeSelectMenu.enabled = false;
+      this.recipeInfo.enabled = false;
+    });
   }
 
   onStart() {
@@ -32,15 +32,15 @@ export class Main extends BaseScriptComponent {
 
     delay.bind(() => {
       this.startButton.getSceneObject().destroy();
-      this.recipeSelectMenu.enabled = true
+      this.recipeSelectMenu.enabled = true;
     });
 
     delay.reset(2);
   }
 
   selectRecipe(recipeName: string) {
-    this.recipeSelectMenu.enabled = false
-    this.recipeInfo.enabled = true
+    this.recipeSelectMenu.enabled = false;
+    this.recipeInfo.enabled = true;
 
     const prompt = `
     Create a delicious and healthy recipe given the following recipe name: ${recipeName}. Output only the recipe and no extra text.
@@ -50,6 +50,11 @@ export class Main extends BaseScriptComponent {
     The summary should be brief and concise, include time measurements for each step, and be around 150 words (but don't display the word count), and outputted in plain text instead of Markdown.
     `;
 
-    this.recipeGpt.chat(prompt)
+    this.recipeGpt.chat(prompt);
+  }
+
+  back() {
+    this.recipeSelectMenu.enabled = true;
+    this.recipeInfo.enabled = false;
   }
 }
