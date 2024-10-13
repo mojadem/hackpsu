@@ -1,15 +1,14 @@
 @component
 export class NewScript extends BaseScriptComponent {
-    @input
-    rotateSpeed: number;
+  @input
+  rotateSpeed: number;
 
-    rotation: number;
+  rotation: number;
 
-    onAwake() {
-        this.rotation = 0;
-        this.rotateSpeed = 1;
+  onAwake() {
+    this.rotation = 0;
+    this.rotateSpeed = 1;
 
-        this.createEvent("UpdateEvent").bind(() => {
-        })
-    }
+    this.createEvent("UpdateEvent").bind(() => {});
+  }
 }

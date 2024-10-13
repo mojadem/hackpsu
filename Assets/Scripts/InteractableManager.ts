@@ -2,14 +2,13 @@ import { Interactable } from "SpectaclesInteractionKit/Components/Interaction/In
 
 @component
 export class InteractableManager extends BaseScriptComponent {
-    @input
-    interactable: Interactable
+  @input
+  interactable: Interactable;
 
-    onAwake() {
-
-        print('awake')
-        this.interactable.onTriggerStart.add(() => {
-            print('test')
-        })
-    }
+  onAwake() {
+    print("awake");
+    this.interactable.onTriggerStart.add(() => {
+      print("test");
+    });
+  }
 }

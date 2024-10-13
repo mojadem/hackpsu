@@ -24,19 +24,40 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    breakfastGptCaller: false
     breakfastInteractable: false
+    breakfastRecipe: false
+    dinnerGptCaller: false
     dinnerInteractable: false
+    dinnerRecipe: false
+    lunchGptCaller: false
     lunchInteractable: false
+    lunchRecipe: false
+    main: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
     - breakfastInteractable: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
       lunchInteractable: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
       dinnerInteractable: !<MappingBased.Interactable> 00000000-0000-0000-0000-000000000000
+      main: !<MappingBased.Main> 00000000-0000-0000-0000-000000000000
+      breakfastRecipe: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      lunchRecipe: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      dinnerRecipe: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      breakfastGptCaller: !<MappingBased.ChatGptTester> 00000000-0000-0000-0000-000000000000
+      lunchGptCaller: !<MappingBased.ChatGptTester> 00000000-0000-0000-0000-000000000000
+      dinnerGptCaller: !<MappingBased.ChatGptTester> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
+    - // @input Main main
     - // @input Interactable breakfastInteractable
+    - // @input Component.Text breakfastRecipe
+    - // @input ChatGptTester breakfastGptCaller
     - // @input Interactable lunchInteractable
+    - // @input Component.Text lunchRecipe
+    - // @input ChatGptTester lunchGptCaller
     - // @input Interactable dinnerInteractable
+    - // @input Component.Text dinnerRecipe
+    - // @input ChatGptTester dinnerGptCaller

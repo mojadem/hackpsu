@@ -1,24 +1,28 @@
 import { ChatGptManager } from "./ChatGptManager";
 
 @component
-export class NewScript extends BaseScriptComponent {
-    @input
-    prompt: string;
+export class ChatGptCaller extends BaseScriptComponent {
+  @input
+  prompt: string;
 
-    @input
-    isActive: boolean;
+  @input
+  isActive: boolean;
 
-    @input
-    chatGptManager: ChatGptManager
+  @input
+  chatGptManager: ChatGptManager;
 
-    onAwake() {
-        
-        this.createEvent('OnStartEvent').bind(() => {
-            if (!this.isActive) {
-                return;
-            }
+  onAwake() {
+    this.createEvent("OnStartEvent").bind(() => {
+      if (!this.isActive) {
+        return;
+      }
 
-            this.chatGptManager.chat(this.prompt)
-        });
-    }
+      this.callGpt()
+    });
+  }
+
+  callGpt() {
+    this.chatGptManager.chat(this.prompt);
+
+  }
 }

@@ -16,7 +16,7 @@ export class ChatGptManager extends BaseScriptComponent {
   chatOutput: Text;
 
   chat(prompt: string) {
-    print(`LLM call with prompt ${prompt}`)
+    print(`LLM call with prompt ${prompt}`);
 
     const request = {
       temperature: 1,

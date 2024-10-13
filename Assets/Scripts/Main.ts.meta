@@ -25,15 +25,24 @@
   MaxVisibility: Editable
   ScriptInputsHidden:
     ghostChef: false
+    recipeGpt: false
+    recipeInfo: false
+    recipeSelectMenu: false
     startButton: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
     - startButton: !<MappingBased.PinchButton> 00000000-0000-0000-0000-000000000000
       ghostChef: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      recipeGpt: !<MappingBased.ChatGptManager> 00000000-0000-0000-0000-000000000000
+      recipeSelectMenu: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      recipeInfo: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
     - // @input PinchButton startButton
     - // @input SceneObject ghostChef
+    - // @input SceneObject recipeSelectMenu
+    - // @input SceneObject recipeInfo
+    - // @input ChatGptManager recipeGpt

@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 408
+    size: 407
     values:
       - ChatGPT Helper.lsc
       - Device Camera Texture.deviceCameraTexture
@@ -9,6 +9,7 @@ CollapsedEntities:
       - Echopark.hdr/Diffuse
       - Echopark.hdr/Specular
       - GhostChef.lsc
+      - Models/Textures
       - Models/bread.fbx
       - Models/bread.fbx/.hidden
       - Models/bread.fbx/.hidden/colormap
@@ -30,7 +31,6 @@ CollapsedEntities:
       - Models/egg.fbx/Meshes/egg-cooked
       - Models/egg.fbx/Textures
       - Models/egg.fbx/Textures/colormap
-      - Models/egg.fbx/egg-cooked
       - Models/plate-dinner.fbx
       - Models/plate-dinner.fbx/.hidden
       - Models/plate-dinner.fbx/.hidden/colormap
@@ -42,12 +42,10 @@ CollapsedEntities:
       - Models/plate-dinner.fbx/Textures
       - Models/plate-dinner.fbx/Textures/colormap
       - Models/plate-dinner.fbx/plate-dinner
-      - Prefabs
       - Prefabs/RecipeSelect.prefab
       - Prefabs/Start.prefab
       - Render Target.renderTarget
       - Scene.scene
-      - Scripts
       - Scripts/ButtonManager.ts
       - Scripts/ChatGptManager.ts
       - Scripts/ChatGptTester.ts
@@ -55,6 +53,7 @@ CollapsedEntities:
       - Scripts/InteractableManager.ts
       - Scripts/Main.ts
       - Scripts/RecipeSelectManager.ts
+      - Scripts/RotateComponent.ts
       - Scripts/SpeechRecognition.ts
       - Scripts/TweenManager.ts
       - SpectaclesInteractionKit
