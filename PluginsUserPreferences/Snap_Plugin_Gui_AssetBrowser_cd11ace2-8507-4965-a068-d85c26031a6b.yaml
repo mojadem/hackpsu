@@ -48,12 +48,12 @@ CollapsedEntities:
       - Prefabs/Start.prefab
       - Render Target.renderTarget
       - Scene.scene
-      - Scripts
       - Scripts/ButtonManager.ts
       - Scripts/ChatGptManager.ts
       - Scripts/ChatGptTester.ts
       - Scripts/Ingredients.ts
       - Scripts/InteractableManager.ts
+      - Scripts/LocationSnapComponent.ts
       - Scripts/Main.ts
       - Scripts/RecipeSelectManager.ts
       - Scripts/RotateComponent.ts

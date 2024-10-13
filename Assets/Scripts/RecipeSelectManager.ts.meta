@@ -26,10 +26,12 @@
   ScriptInputsHidden:
     breakfastGptCaller: false
     breakfastInteractable: false
+    breakfastLocationSnap: false
     breakfastRecipe: false
     dinnerGptCaller: false
     dinnerInteractable: false
     dinnerRecipe: false
+    ingredients: false
     lunchGptCaller: false
     lunchInteractable: false
     lunchRecipe: false
@@ -47,6 +49,8 @@
       breakfastGptCaller: !<MappingBased.ChatGptTester> 00000000-0000-0000-0000-000000000000
       lunchGptCaller: !<MappingBased.ChatGptTester> 00000000-0000-0000-0000-000000000000
       dinnerGptCaller: !<MappingBased.ChatGptTester> 00000000-0000-0000-0000-000000000000
+      ingredients: !<MappingBased.Ingredients> 00000000-0000-0000-0000-000000000000
+      breakfastLocationSnap: !<MappingBased.LocationSnapComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -55,9 +59,11 @@
     - // @input Interactable breakfastInteractable
     - // @input Component.Text breakfastRecipe
     - // @input ChatGptTester breakfastGptCaller
+    - // @input LocationSnapComponent breakfastLocationSnap
     - // @input Interactable lunchInteractable
     - // @input Component.Text lunchRecipe
     - // @input ChatGptTester lunchGptCaller
     - // @input Interactable dinnerInteractable
     - // @input Component.Text dinnerRecipe
     - // @input ChatGptTester dinnerGptCaller
+    - // @input Ingredients ingredients
