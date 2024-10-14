@@ -4,6 +4,10 @@
 
 The project won **2nd place** out of 12 teams!
 
+## Demo
+
+<img src='demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 ## Inspiration
 The idea for **Cook It Up** came from those moments of fridge confusion—when you're staring at a random assortment of leftovers, unsure what to make. Having previously used **Snap AI** for meal prepping and calorie tracking, we wanted to take things further. The goal was to create a fun, interactive experience that takes the guesswork out of cooking by suggesting easy recipes based on whatever ingredients you have. It's all about making cooking spontaneous, simple, and a bit more exciting!
 
