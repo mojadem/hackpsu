@@ -40,3 +40,9 @@ The next steps are exciting! We're planning to:
 - Build a feedback system that tracks which recipes users enjoy and tailors future suggestions based on their preferences.
 
 With these upgrades, **Cook It Up** will be even more personalized and user-friendly!`
+
+## Collaborators
+- Matt Dembiczak
+- Avanish Grampurohit
+- Govind Raman
+- Sainath Nair
